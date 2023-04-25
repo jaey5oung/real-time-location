@@ -47,7 +47,7 @@ export default function App() {
           <Text>경도: {location.coords.longitude}</Text>
         </>
       ) : (
-        <Text>Waiting for location...</Text>
+        <Text>Waiting for location..</Text>
       )}
     </View>
   );
